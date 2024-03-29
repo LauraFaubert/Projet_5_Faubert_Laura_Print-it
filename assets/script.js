@@ -33,7 +33,7 @@ const arrowRight = document.querySelector('.arrow_right');
 //console.log(arrowRight);
 
 arrowLeft.addEventListener("click", () => {
-	console.log('Gauche');
+	//console.log('Gauche');
 	position = position - 1;
 	if (position > slides.length -1)
 	position = 0;
